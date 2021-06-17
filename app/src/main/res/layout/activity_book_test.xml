@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yogesh.appoinment.controllers.BookTestActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/bgrounded"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/doctor" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/txtName"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Doctor Name"
+                                        android:textSize="18dp"
+                                        android:textStyle="bold"></TextView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:id="@+id/txtEmail"
+                                        android:layout_marginTop="10dp"
+                                        android:text="test@gmail.com"
+                                        android:layout_height="wrap_content"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:id="@+id/txtMobile"
+                                        android:text="9999999999"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+                        <Button
+                            android:id="@+id/btnOneWayDepartureDatePicker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/bgrounded"
+                            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                            android:drawablePadding="15dp"
+                            android:fontFamily="sans-serif"
+                            android:padding="15dp"
+                            android:text="@string/prompt_departure_date"
+                            android:textAlignment="textStart"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorMediumGray"
+                            android:textSize="18sp" />
+
+                        <Button
+                            android:id="@+id/btnSearch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/primaryBlue"
+                            android:fontFamily="sans-serif"
+                            android:text="Book Appointment"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorInverted"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

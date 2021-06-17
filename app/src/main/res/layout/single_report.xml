@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/patient_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_assignment_24"></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Report Type"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" file name"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawableEnd="@drawable/ic_baseline_preview_24"></TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

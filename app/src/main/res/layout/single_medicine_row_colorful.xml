@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/row_height"
+    android:background="@color/colorRow"
+    android:orientation="horizontal">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtSr"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtMedicineName"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtMorning"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtAfternoon"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtEvening"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtDays"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorSecondaryText" />
+
+</LinearLayout>

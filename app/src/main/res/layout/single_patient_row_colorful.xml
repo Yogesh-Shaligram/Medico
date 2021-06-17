@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/row_height"
+    android:background="@color/colorRow"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtSr"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/txtPatientName"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/txtPatientMobile"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/txtPatientEmail"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/txtHistory"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:text="View History"
+        android:textColor="@color/colorPrimaryText" />
+
+    <TextView
+        android:id="@+id/txtReports"
+        android:layout_width="@dimen/cell_width"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:gravity="center|start"
+        android:text="View Reports"
+        android:textColor="@color/colorPrimaryText" />
+
+
+</LinearLayout>
