@@ -14,8 +14,13 @@
 <img src="https://user-images.githubusercontent.com/43718012/141610976-e4764b9c-37d8-4550-858d-ea587c4802b1.jpg" width="200"> <img src="https://user-images.githubusercontent.com/43718012/141610977-665e3621-9633-498e-9a4d-d72f179a5297.jpg" width="200">
 
 # Features
--[x]  The system consists of two panels: Doctor and Patient. The users will first have to download the application and install it in their mobile devices.
--[x] The patient can use this ID along with a password for logging into the app each time he uses it. After logging in, the patient will have to select a filtration type, i.e., Specialization of the doctors. If he unsure of his health condition, he is able to input his symptoms from the given set.
+- [x]  The system consists of two panels: Doctor and Patient. The users will first have to download the application and install it in their mobile devices.
+- [x] The patient can use this ID along with a password for logging into the app each time he uses it. After logging in, the patient will have to select a filtration type, i.e., Specialization of the doctors. If he unsure of his health condition, he is able to input his symptoms from the given set.
+- [x] A report of the health condition of the patient is generated. Based on the location and the type of health condition, the doctors list will be displayed. The patient can select any particular doctor and view his profile.
+- [x] If the user selects a doctor, the automated scheduling system will schedule an appointment based on the date and time given by the user. The user may request for new timings, or reschedule based on his convenience.
+- [x] The databases will get updated accordingly and both the patient and the doctor receive a notification. The doctor will be able to view the details of the patient and their health report.The addon to this system is that the patient will receive a reminder notification 2 hours before the actual appointment. This will be very useful in case the patient tends to forget the appointment.
+- [x] Upon arrival of the patient at the doctors clinic, the doctor can suggest medicines and further references to other doctors if necessary.
+- [x] The patients records, appointment dates, suggestions will all be stored in the database for viewing by patients and doctors. An add-on feature to this application is that the patients are suggested home remedies to common diseases like the cold, flu, fever and so on.
 
 
 
