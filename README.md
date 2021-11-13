@@ -13,4 +13,9 @@
 <img src="https://user-images.githubusercontent.com/43718012/141610974-af1d6337-92b8-4dc9-bc4f-9f0e25d6e4ea.jpg" width="200"> <img src="https://user-images.githubusercontent.com/43718012/141610975-1a3ba396-682c-4540-9997-3e24ac5b3f97.jpg" width="200">
 <img src="https://user-images.githubusercontent.com/43718012/141610976-e4764b9c-37d8-4550-858d-ea587c4802b1.jpg" width="200"> <img src="https://user-images.githubusercontent.com/43718012/141610977-665e3621-9633-498e-9a4d-d72f179a5297.jpg" width="200">
 
+# Features
+-[x]  The system consists of two panels: Doctor and Patient. The users will first have to download the application and install it in their mobile devices.
+-[x] The patient can use this ID along with a password for logging into the app each time he uses it. After logging in, the patient will have to select a filtration type, i.e., Specialization of the doctors. If he unsure of his health condition, he is able to input his symptoms from the given set.
+
+
 
